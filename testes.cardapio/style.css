@@ -1,0 +1,21 @@
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: black; /* Cor inicial dos links */
+}
+
+/* Muda a cor dos links quando o mouse passa sobre eles */
+a:hover {
+    color: rgb(255, 0, 0); /* Cor ao passar o mouse */
+}
+
+.link-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    width: 50%; /* Defina a largura da div */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    
+    padding: 0px;
+    text-align: center; /* Opcional: centraliza o texto dentro da div */
+    position: fixed;
+    
+}
